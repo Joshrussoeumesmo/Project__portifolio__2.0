@@ -5,9 +5,11 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
+<<<<<<< Updated upstream:style.css
     /* Define a altura do body como 100% da altura da viewport, ocupando toda a tela */
     height: 100vh;
 
@@ -54,6 +56,46 @@ img {
 
 .apresentacao__conteudo {
     /* Define a largura do conteúdo como 615px */
+=======
+    background-color: #000000;
+    color: #C8C8C8;
+}
+
+/* Header */
+.header {
+    display: flex;
+    gap: 80px;
+    padding: 2% 0% 0% 15%;
+
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+ 
+}
+
+.menu__link {
+    
+    color: #8A63C3;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Main Section */
+.main {
+    padding: 5% 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.content {
+>>>>>>> Stashed changes:styles/style.css
     width: 615px;
 
     /* Cria um contêiner flex para organizar itens em coluna */
@@ -66,8 +108,12 @@ img {
     gap: 40px;
 }
 
+<<<<<<< Updated upstream:style.css
 .apresentacao__conteudo__titulo {
     /* Aplica a fonte "Krona One" para o título */
+=======
+.content__title {
+>>>>>>> Stashed changes:styles/style.css
     font-family: "Krona One", sans-serif;
 
     /* Define o tamanho da fonte como 36px */
@@ -77,8 +123,12 @@ img {
     text-align: justify;
 }
 
+<<<<<<< Updated upstream:style.css
 .apresentacao__conteudo__texto {
     /* Aplica a fonte "Montserrat" para o texto */
+=======
+.content__text {
+>>>>>>> Stashed changes:styles/style.css
     font-family: "Montserrat", sans-serif;
 
     /* Define o tamanho da fonte como 24px */
@@ -88,10 +138,20 @@ img {
     text-align: justify;
 }
 
+<<<<<<< Updated upstream:style.css
 .apresentacao__links {
     /* Define o elemento como um contêiner flex para organizar os links em linha */
+=======
+.highlight {
+    color: #8A63C3;
+}
+
+/* Social Links Section */
+.social {
+>>>>>>> Stashed changes:styles/style.css
     display: flex;
 
+<<<<<<< Updated upstream:style.css
     /* Distribui o espaço livre ao redor dos itens, espaçando-os igualmente */
     justify-content: space-around;
 }
@@ -116,6 +176,27 @@ img {
     color: black;
 
     /* Aplica a fonte "Montserrat" para o texto do botão */
+=======
+.social__heading {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.social__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    border: 2px solid #8A63C3;
+    width: 378px;
+    border-radius: 12px;
+    padding: 21.5px 0;
+
+    text-decoration: none;
+>>>>>>> Stashed changes:styles/style.css
     font-family: "Montserrat", sans-serif;
 
     /* Define o tamanho da fonte como 24px */
@@ -126,4 +207,34 @@ img {
 
     /* Centraliza o texto horizontalmente dentro do botão */
     text-align: center;
+    color: #C8C8C8;
 }
+<<<<<<< Updated upstream:style.css
+=======
+
+.social__button:hover {
+    background-color: #272727;
+    padding: 3%;
+    cursor: pointer;
+}
+
+/* Photo */
+.photo {
+    width: 615px;
+    height: auto;
+    border-radius: 45%;
+/*  position: relative;     Apenas para exemplo de possibilidade
+    top: -10px;     Ajuste fino para alinhar melhor ao topo do texto */
+}
+
+/* Footer */
+.footer {
+    padding: 21.5px 0;
+    background-color: #8A63C3;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+>>>>>>> Stashed changes:styles/style.css
